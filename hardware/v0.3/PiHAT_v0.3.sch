@@ -6848,14 +6848,6 @@ Akram Ali</text>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="104,1,154.94,53.34,U1,VCC,3.3V,,,"/>
-<approved hash="104,1,78.74,-38.1,U2,VDD,3.3V,,,"/>
-<approved hash="104,1,78.74,-40.64,U2,VSS,GND,,,"/>
-<approved hash="115,1,-1.40123,-42.9429,IRQ,,,,,"/>
-<approved hash="115,1,-2.77707,18.9188,#26,,,,,"/>
-<approved hash="115,1,-2.54,-11.1845,SJ2,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 <compatibility>
