@@ -3281,7 +3281,7 @@ einem neuen Namen ab.</description>
 <attribute name="MOUSER#" value="603-RC0805JR-0710KL" x="49.149" y="32.4866" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C3" library="SparkFun-Passives" package="0805" value="0.1uF" x="26.9494" y="6.096" smashed="yes">
-<attribute name="VALUE" x="25.4762" y="7.4676" size="0.8128" layer="21" font="vector"/>
+<attribute name="VALUE" x="25.6286" y="7.4168" size="0.8128" layer="21" font="vector"/>
 <attribute name="DIGIKEY#" value="311-1088-1-ND" x="26.9494" y="6.096" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CC0603KRX7R7BB104" x="26.9494" y="6.096" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER#" value="603-CC603KRX7R7BB104" x="26.9494" y="6.096" size="1.778" layer="27" display="off"/>
@@ -3387,7 +3387,7 @@ einem neuen Namen ab.</description>
 </element>
 <element name="R8" library="SparkFun-Passives" package="0805" value="100K" x="62.4586" y="11.2014" smashed="yes" rot="R180">
 <attribute name="VALUE" x="63.9826" y="13.1064" size="0.8128" layer="21" font="vector" rot="R180"/>
-<attribute name="DIGIKEY#" value="541-82.0CCT-ND" x="62.4586" y="11.2014" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY#" value="311-100KCRCT-ND" x="62.4586" y="11.2014" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="RC0805FR-07100KL" x="62.4586" y="11.2014" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER#" value="603-RC0805FR-07100KL" x="62.4586" y="11.2014" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -3417,7 +3417,7 @@ einem neuen Namen ab.</description>
 <attribute name="MPN" value="CCS811" x="62.1792" y="36.0172" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R9" library="SparkFun-Passives" package="0805" value="100K" x="59.8932" y="33.5788" smashed="yes" rot="R180">
-<attribute name="DIGIKEY#" value="541-82.0CCT-ND" x="59.8932" y="33.5788" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY#" value="311-100KCRCT-ND" x="59.8932" y="33.5788" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="58.1152" y="34.0106" size="0.8128" layer="21" font="vector" rot="R180"/>
 <attribute name="MPN" value="RC0805FR-07100KL" x="59.8932" y="33.5788" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER#" value="603-RC0805FR-07100KL" x="59.8932" y="33.5788" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3438,9 +3438,7 @@ einem neuen Namen ab.</description>
 </element>
 <element name="J1" library="SparkFun-Connectors" package="FTDI_BASIC" value="FTDI" x="7.62" y="20.4724" smashed="yes" rot="R90">
 <attribute name="VALUE" x="8.7884" y="35.687" size="0.6096" layer="21" font="vector" rot="R180"/>
-<attribute name="MPN" value="FT231XS-R" x="7.62" y="20.4724" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGIKEY#" value="768-1129-1-ND" x="7.62" y="20.4724" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER#" value="895-FT231XS-R" x="7.62" y="20.4724" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NO_BOM" value="TRUE" x="7.62" y="20.4724" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="J3" library="SparkFun-Connectors" package="2X3" value="ISP" x="13.9192" y="29.1592" smashed="yes" rot="R270">
 <attribute name="VALUE" x="14.4272" y="31.0642" size="0.6096" layer="21" font="vector"/>
@@ -3448,6 +3446,9 @@ einem neuen Namen ab.</description>
 </element>
 <element name="IC1" library="bosch-bmp280" package="BMP280" value="BMP280" x="37.2872" y="3.1496" smashed="yes" rot="R90">
 <attribute name="VALUE" x="39.6048" y="0.9404" size="0.8128" layer="21" font="vector" rot="R180"/>
+<attribute name="DIGIKEY#" value="828-1064-1-ND" x="37.2872" y="3.1496" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF" value="BMP280" x="37.2872" y="3.1496" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER#" value="262-BMP280" x="37.2872" y="3.1496" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="JP1" library="SparkFun-Passives" package="PAD-JUMPER-2-NC_BY_PASTE_YES_SILK_FULL_BOX" value="SDA" x="59.5884" y="45.466" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="61.7474" y="46.619" size="0.8128" layer="22" font="vector" rot="MR270"/>
@@ -3455,15 +3456,17 @@ einem neuen Namen ab.</description>
 <element name="JP2" library="SparkFun-Passives" package="PAD-JUMPER-2-NC_BY_PASTE_YES_SILK_FULL_BOX" value="SCL" x="56.9976" y="45.466" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="55.6006" y="46.4666" size="0.8128" layer="22" font="vector" rot="SMR270"/>
 </element>
-<element name="C7" library="SparkFun-Passives" package="0805" value="0.1uF" x="37.3888" y="6.1976">
+<element name="C7" library="SparkFun-Passives" package="0805" value="0.1uF" x="37.3888" y="6.1976" smashed="yes">
 <attribute name="DIGIKEY#" value="311-1088-1-ND" x="37.3888" y="6.1976" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER#" value="603-CC603KRX7R7BB104" x="37.3888" y="6.1976" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CC0603KRX7R7BB104" x="37.3888" y="6.1976" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="35.9664" y="7.4422" size="0.8128" layer="21" font="vector"/>
 </element>
-<element name="C11" library="SparkFun-Passives" package="0805" value="0.1uF" x="33.8836" y="5.0292" rot="R90">
+<element name="C11" library="SparkFun-Passives" package="0805" value="0.1uF" x="33.8836" y="5.0292" smashed="yes" rot="R90">
 <attribute name="DIGIKEY#" value="311-1088-1-ND" x="33.8836" y="5.0292" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER#" value="603-CC603KRX7R7BB104" x="33.8836" y="5.0292" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="CC0603KRX7R7BB104" x="33.8836" y="5.0292" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="32.4866" y="3.7592" size="0.8128" layer="21" font="vector" rot="R90"/>
 </element>
 </elements>
 <signals>

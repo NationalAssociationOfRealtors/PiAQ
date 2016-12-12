@@ -5780,7 +5780,7 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <attribute name="MPN" value="RC0805JR-0710KL"/>
 </part>
 <part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="100K">
-<attribute name="DIGIKEY#" value="541-82.0CCT-ND"/>
+<attribute name="DIGIKEY#" value="311-100KCRCT-ND"/>
 <attribute name="MOUSER#" value="603-RC0805FR-07100KL"/>
 <attribute name="MPN" value="RC0805FR-07100KL"/>
 </part>
@@ -5810,7 +5810,7 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </part>
 <part name="SUPPLY8" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="100K">
-<attribute name="DIGIKEY#" value="541-82.0CCT-ND"/>
+<attribute name="DIGIKEY#" value="311-100KCRCT-ND"/>
 <attribute name="MOUSER#" value="603-RC0805FR-07100KL"/>
 <attribute name="MPN" value="RC0805FR-07100KL"/>
 </part>
@@ -5827,14 +5827,16 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <attribute name="MPN" value="LY L29K-H1K2-26-Z"/>
 </part>
 <part name="J1" library="SparkFun-Connectors" deviceset="FTDI_BASIC" device="PTH" value="FTDI">
-<attribute name="DIGIKEY#" value="768-1129-1-ND"/>
-<attribute name="MOUSER#" value="895-FT231XS-R"/>
-<attribute name="MPN" value="FT231XS-R"/>
+<attribute name="NO_BOM" value="TRUE"/>
 </part>
 <part name="J3" library="SparkFun-Connectors" deviceset="AVR_SPI_PRG_6" device="PTH" value="ISP">
 <attribute name="NO_BOM" value="TRUE"/>
 </part>
-<part name="IC1" library="bosch-bmp280" deviceset="BMP280" device=""/>
+<part name="IC1" library="bosch-bmp280" deviceset="BMP280" device="">
+<attribute name="DIGIKEY#" value="828-1064-1-ND"/>
+<attribute name="MANF" value="BMP280"/>
+<attribute name="MOUSER#" value="262-BMP280"/>
+</part>
 <part name="SUPPLY10" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="SUPPLY13" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="JP1" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_PASTE" device="FULL-BOX-SILK" value="SDA"/>
@@ -5859,11 +5861,11 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <text x="411.48" y="2.54" size="3.81" layer="94">Sound Intensity</text>
 <text x="281.94" y="0" size="3.81" layer="94">Temperature and Relative Humidity</text>
 <text x="203.2" y="15.24" size="3.81" layer="94">ISP</text>
-<text x="492.76" y="-88.9" size="5.08" layer="94" font="vector" ratio="20">CRT Labs</text>
-<text x="502.92" y="-93.98" size="2.54" layer="94" font="vector" ratio="10">PiAQ HAT</text>
-<text x="510.54" y="-104.14" size="2.54" layer="94" font="vector" ratio="10" align="bottom-center">v0.3
+<text x="490.22" y="-88.9" size="5.08" layer="94" font="vector" ratio="20">CRT Labs</text>
+<text x="500.38" y="-93.98" size="2.54" layer="94" font="vector" ratio="10">PiAQ HAT</text>
+<text x="508" y="-104.14" size="2.54" layer="94" font="vector" ratio="10" align="bottom-center">v0.3
 (December 2016)</text>
-<text x="510.54" y="-111.76" size="1.27" layer="94" font="vector" ratio="10" align="bottom-center">Designed by
+<text x="508" y="-111.76" size="1.27" layer="94" font="vector" ratio="10" align="bottom-center">Designed by
 Akram Ali</text>
 <text x="322.58" y="30.48" size="1.778" layer="97">0x39</text>
 <text x="320.04" y="-93.98" size="1.778" layer="97">0x5B</text>
@@ -5876,8 +5878,8 @@ Akram Ali</text>
 <instance part="RPI1" gate="G$1" x="223.52" y="104.14">
 <attribute name="NO_BOM" x="223.52" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND1" gate="1" x="200.66" y="73.66"/>
-<instance part="GND2" gate="1" x="251.46" y="71.12"/>
+<instance part="GND1" gate="1" x="187.96" y="73.66"/>
+<instance part="GND2" gate="1" x="264.16" y="71.12"/>
 <instance part="U1" gate="U$1" x="454.66" y="71.12">
 <attribute name="MPN" x="454.66" y="71.12" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="DIGIKEY#" x="454.66" y="71.12" size="1.778" layer="96" display="off"/>
@@ -6053,14 +6055,16 @@ Akram Ali</text>
 <attribute name="MOUSER#" x="170.18" y="88.9" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="J1" gate="G$1" x="200.66" y="-78.74">
-<attribute name="MPN" x="200.66" y="-78.74" size="1.778" layer="96" display="off"/>
-<attribute name="DIGIKEY#" x="200.66" y="-78.74" size="1.778" layer="96" display="off"/>
-<attribute name="MOUSER#" x="200.66" y="-78.74" size="1.778" layer="96" display="off"/>
+<attribute name="NO_BOM" x="200.66" y="-78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J3" gate="G$1" x="205.74" y="5.08">
 <attribute name="NO_BOM" x="205.74" y="5.08" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="IC1" gate="G$1" x="312.42" y="104.14"/>
+<instance part="IC1" gate="G$1" x="312.42" y="104.14">
+<attribute name="DIGIKEY#" x="312.42" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="MANF" x="312.42" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER#" x="312.42" y="104.14" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY10" gate="G$1" x="353.06" y="114.3"/>
 <instance part="SUPPLY13" gate="G$1" x="289.56" y="114.3"/>
 <instance part="JP1" gate="G$1" x="182.88" y="121.92"/>
@@ -6248,37 +6252,37 @@ Akram Ali</text>
 <segment>
 <pinref part="RPI1" gate="G$1" pin="GND@3"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="200.66" y1="93.98" x2="205.74" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="76.2" x2="200.66" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="93.98" x2="200.66" y2="76.2" width="0.1524" layer="91"/>
-<junction x="200.66" y="76.2"/>
+<wire x1="187.96" y1="93.98" x2="205.74" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="76.2" x2="187.96" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="93.98" x2="187.96" y2="76.2" width="0.1524" layer="91"/>
+<junction x="187.96" y="76.2"/>
 <pinref part="RPI1" gate="G$1" pin="GND@4"/>
-<wire x1="200.66" y1="114.3" x2="205.74" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="93.98" x2="200.66" y2="114.3" width="0.1524" layer="91"/>
-<junction x="200.66" y="93.98"/>
+<wire x1="187.96" y1="114.3" x2="205.74" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="93.98" x2="187.96" y2="114.3" width="0.1524" layer="91"/>
+<junction x="187.96" y="93.98"/>
 <pinref part="RPI1" gate="G$1" pin="GND@5"/>
 </segment>
 <segment>
 <pinref part="RPI1" gate="G$1" pin="GND"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="243.84" y1="119.38" x2="251.46" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="119.38" x2="251.46" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="119.38" x2="264.16" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="119.38" x2="264.16" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="RPI1" gate="G$1" pin="GND@7"/>
-<wire x1="251.46" y1="109.22" x2="251.46" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="101.6" x2="251.46" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="88.9" x2="251.46" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="83.82" x2="251.46" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="83.82" x2="251.46" y2="83.82" width="0.1524" layer="91"/>
-<junction x="251.46" y="83.82"/>
+<wire x1="264.16" y1="109.22" x2="264.16" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="101.6" x2="264.16" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="88.9" x2="264.16" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="83.82" x2="264.16" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="83.82" x2="264.16" y2="83.82" width="0.1524" layer="91"/>
+<junction x="264.16" y="83.82"/>
 <pinref part="RPI1" gate="G$1" pin="GND@6"/>
-<wire x1="243.84" y1="88.9" x2="251.46" y2="88.9" width="0.1524" layer="91"/>
-<junction x="251.46" y="88.9"/>
+<wire x1="243.84" y1="88.9" x2="264.16" y2="88.9" width="0.1524" layer="91"/>
+<junction x="264.16" y="88.9"/>
 <pinref part="RPI1" gate="G$1" pin="GND@2"/>
-<wire x1="243.84" y1="101.6" x2="251.46" y2="101.6" width="0.1524" layer="91"/>
-<junction x="251.46" y="101.6"/>
+<wire x1="243.84" y1="101.6" x2="264.16" y2="101.6" width="0.1524" layer="91"/>
+<junction x="264.16" y="101.6"/>
 <pinref part="RPI1" gate="G$1" pin="GND@1"/>
-<wire x1="243.84" y1="109.22" x2="251.46" y2="109.22" width="0.1524" layer="91"/>
-<junction x="251.46" y="109.22"/>
+<wire x1="243.84" y1="109.22" x2="264.16" y2="109.22" width="0.1524" layer="91"/>
+<junction x="264.16" y="109.22"/>
 </segment>
 <segment>
 <pinref part="U1" gate="U$1" pin="GND@5"/>
