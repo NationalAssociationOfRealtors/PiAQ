@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5692,7 +5692,7 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </part>
 <part name="C3" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
 <attribute name="DIGIKEY#" value="311-1088-1-ND"/>
-<attribute name="MOUSER#" value="603-RC0805FR-07100RL"/>
+<attribute name="MOUSER#" value="603-CC603KRX7R7BB104"/>
 <attribute name="MPN" value="CC0603KRX7R7BB104"/>
 </part>
 <part name="C4" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
@@ -5837,10 +5837,18 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <part name="IC1" library="bosch-bmp280" deviceset="BMP280" device=""/>
 <part name="SUPPLY10" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="SUPPLY13" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
-<part name="C1" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C6" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF"/>
 <part name="JP1" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_PASTE" device="FULL-BOX-SILK" value="SDA"/>
 <part name="JP2" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_PASTE" device="FULL-BOX-SILK" value="SCL"/>
+<part name="C7" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
+<attribute name="DIGIKEY#" value="311-1088-1-ND"/>
+<attribute name="MOUSER#" value="603-CC603KRX7R7BB104"/>
+<attribute name="MPN" value="CC0603KRX7R7BB104"/>
+</part>
+<part name="C11" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
+<attribute name="DIGIKEY#" value="311-1088-1-ND"/>
+<attribute name="MOUSER#" value="603-CC603KRX7R7BB104"/>
+<attribute name="MPN" value="CC0603KRX7R7BB104"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -6055,10 +6063,18 @@ Akram Ali</text>
 <instance part="IC1" gate="G$1" x="312.42" y="104.14"/>
 <instance part="SUPPLY10" gate="G$1" x="353.06" y="114.3"/>
 <instance part="SUPPLY13" gate="G$1" x="289.56" y="114.3"/>
-<instance part="C1" gate="G$1" x="353.06" y="99.06"/>
-<instance part="C6" gate="G$1" x="289.56" y="104.14" rot="R180"/>
 <instance part="JP1" gate="G$1" x="182.88" y="121.92"/>
 <instance part="JP2" gate="G$1" x="177.8" y="119.38"/>
+<instance part="C7" gate="G$1" x="289.56" y="101.6">
+<attribute name="DIGIKEY#" x="289.56" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="289.56" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER#" x="289.56" y="101.6" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C11" gate="G$1" x="353.06" y="99.06">
+<attribute name="DIGIKEY#" x="353.06" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="353.06" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER#" x="353.06" y="99.06" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6398,17 +6414,17 @@ Akram Ali</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="GND"/>
-<pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="297.18" y1="99.06" x2="289.56" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="99.06" x2="289.56" y2="91.44" width="0.1524" layer="91"/>
-<junction x="289.56" y="99.06"/>
 <wire x1="353.06" y1="91.44" x2="312.42" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="91.44" x2="289.56" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="91.44" x2="312.42" y2="86.36" width="0.1524" layer="91"/>
 <junction x="312.42" y="91.44"/>
 <label x="312.42" y="86.36" size="1.778" layer="95" rot="R270" xref="yes"/>
-<pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="353.06" y1="91.44" x2="353.06" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<junction x="289.56" y="99.06"/>
+<pinref part="C11" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="GPIO18" class="0">
@@ -6605,9 +6621,9 @@ Akram Ali</text>
 <pinref part="SUPPLY13" gate="G$1" pin="VCC"/>
 <wire x1="297.18" y1="109.22" x2="289.56" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="109.22" x2="289.56" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="289.56" y1="106.68" x2="289.56" y2="109.22" width="0.1524" layer="91"/>
 <junction x="289.56" y="109.22"/>
+<pinref part="C7" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="VDDIO"/>
@@ -6622,9 +6638,9 @@ Akram Ali</text>
 <wire x1="327.66" y1="99.06" x2="332.74" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="SUPPLY10" gate="G$1" pin="VCC"/>
 <wire x1="353.06" y1="109.22" x2="353.06" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="353.06" y1="104.14" x2="353.06" y2="109.22" width="0.1524" layer="91"/>
 <junction x="353.06" y="109.22"/>
+<pinref part="C11" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="D5" class="0">
