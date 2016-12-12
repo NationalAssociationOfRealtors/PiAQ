@@ -5713,9 +5713,7 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </part>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0805">
-<attribute name="DIGIKEY#" value="475-1196-1-ND"/>
-<attribute name="MOUSER#" value="720-LYL29KH1K226Z"/>
-<attribute name="MPN" value="LY L29K-H1K2-26-Z"/>
+<attribute name="MPN" value="LTST-C170TBKT"/>
 </part>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R13" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10K">
@@ -5794,9 +5792,7 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </part>
 <part name="LED3" library="adafruit" deviceset="LED" device="CHIPLED_0805">
 <attribute name="DESCRIPTION" value="LED"/>
-<attribute name="DIGIKEY#" value="475-1196-1-ND"/>
-<attribute name="MOUSER#" value="720-LYL29KH1K226Z"/>
-<attribute name="MPN" value="LY L29K-H1K2-26-Z"/>
+<attribute name="MPN" value="LTST-C170TBKT"/>
 </part>
 <part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="47">
 <attribute name="DIGIKEY#" value="311-47ARCT-ND"/>
@@ -5822,9 +5818,7 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </part>
 <part name="LED2" library="adafruit" deviceset="LED" device="CHIPLED_0805">
 <attribute name="DESCRIPTION" value="LED"/>
-<attribute name="DIGIKEY#" value="475-1196-1-ND"/>
-<attribute name="MOUSER#" value="720-LYL29KH1K226Z"/>
-<attribute name="MPN" value="LY L29K-H1K2-26-Z"/>
+<attribute name="MPN" value="LTST-C170TBKT"/>
 </part>
 <part name="J1" library="SparkFun-Connectors" deviceset="FTDI_BASIC" device="PTH" value="FTDI">
 <attribute name="NO_BOM" value="TRUE"/>
@@ -5942,8 +5936,6 @@ Akram Ali</text>
 <instance part="SUPPLY7" gate="G$1" x="495.3" y="111.76"/>
 <instance part="LED1" gate="G$1" x="513.08" y="60.96" rot="R90">
 <attribute name="MPN" x="513.08" y="60.96" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="DIGIKEY#" x="513.08" y="60.96" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MOUSER#" x="513.08" y="60.96" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND8" gate="1" x="520.7" y="50.8"/>
 <instance part="R13" gate="G$1" x="416.56" y="109.22" rot="R90">
@@ -6022,9 +6014,7 @@ Akram Ali</text>
 </instance>
 <instance part="LED3" gate="G$1" x="170.18" y="78.74" rot="R270">
 <attribute name="MPN" x="170.18" y="78.74" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DIGIKEY#" x="170.18" y="78.74" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" x="170.18" y="78.74" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MOUSER#" x="170.18" y="78.74" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R2" gate="G$1" x="182.88" y="78.74">
 <attribute name="MPN" x="182.88" y="78.74" size="1.778" layer="96" rot="R270" display="off"/>
@@ -6050,9 +6040,7 @@ Akram Ali</text>
 </instance>
 <instance part="LED2" gate="G$1" x="170.18" y="88.9" rot="R270">
 <attribute name="MPN" x="170.18" y="88.9" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DIGIKEY#" x="170.18" y="88.9" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" x="170.18" y="88.9" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MOUSER#" x="170.18" y="88.9" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="J1" gate="G$1" x="200.66" y="-78.74">
 <attribute name="NO_BOM" x="200.66" y="-78.74" size="1.778" layer="96" display="off"/>

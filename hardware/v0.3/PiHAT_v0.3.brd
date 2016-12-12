@@ -3307,10 +3307,8 @@ einem neuen Namen ab.</description>
 <attribute name="MOUSER#" value="81-CSTCE16M0V53-R0" x="39.3446" y="38.9636" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="LED1" library="adafruit" package="CHIPLED_0805" value="" x="1.651" y="39.497" smashed="yes" rot="R180">
-<attribute name="MPN" value="LY L29K-H1K2-26-Z" x="69.596" y="-3.81" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="LTST-C170TBKT" x="69.596" y="-3.81" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-0.889" y="40.767" size="1.27" layer="27" rot="R270"/>
-<attribute name="DIGIKEY#" value="475-1196-1-ND" x="1.651" y="39.497" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER#" value="720-LYL29KH1K226Z" x="1.651" y="39.497" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R13" library="SparkFun-Passives" package="0805" value="10K" x="10.8966" y="13.589" smashed="yes" rot="R270">
 <attribute name="VALUE" x="12.1412" y="14.6812" size="0.8128" layer="21" font="vector" rot="R270"/>
@@ -3398,12 +3396,10 @@ einem neuen Namen ab.</description>
 <attribute name="MOUSER#" value="603-CC603KRX7R7BB104" x="43.6626" y="38.9382" size="1.778" layer="27" display="off"/>
 </element>
 <element name="LED3" library="adafruit" package="CHIPLED_0805" value="" x="50.8" y="46.228" smashed="yes">
-<attribute name="DIGIKEY#" value="475-1196-1-ND" x="50.8" y="46.228" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="LY L29K-H1K2-26-Z" x="50.8" y="46.228" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="LTST-C170TBKT" x="50.8" y="46.228" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="50.4444" y="44.1452" size="0.8128" layer="21" font="vector" rot="R270"/>
 <attribute name="VALUE" x="53.34" y="44.958" size="1.27" layer="27" rot="R90"/>
 <attribute name="DESCRIPTION" value="LED" x="50.8" y="46.228" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER#" value="720-LYL29KH1K226Z" x="50.8" y="46.228" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R2" library="SparkFun-Resistors" package="0805" value="47" x="52.7304" y="46.1264" smashed="yes" rot="R90">
 <attribute name="DIGIKEY#" value="311-47ARCT-ND" x="52.7304" y="46.1264" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3429,12 +3425,10 @@ einem neuen Namen ab.</description>
 <attribute name="MOUSER#" value="603-RC0805JR-0747RL" x="45.3644" y="46.0756" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="LED2" library="adafruit" package="CHIPLED_0805" value="" x="47.244" y="46.228" smashed="yes">
-<attribute name="DIGIKEY#" value="475-1196-1-ND" x="47.244" y="46.228" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="LY L29K-H1K2-26-Z" x="47.244" y="46.228" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="LTST-C170TBKT" x="47.244" y="46.228" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="47.6504" y="41.3004" size="0.8128" layer="21" font="vector" rot="R90"/>
 <attribute name="VALUE" x="49.784" y="44.958" size="1.27" layer="27" rot="R90"/>
 <attribute name="DESCRIPTION" value="LED" x="47.244" y="46.228" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER#" value="720-LYL29KH1K226Z" x="47.244" y="46.228" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J1" library="SparkFun-Connectors" package="FTDI_BASIC" value="FTDI" x="7.62" y="20.4724" smashed="yes" rot="R90">
 <attribute name="VALUE" x="8.7884" y="35.687" size="0.6096" layer="21" font="vector" rot="R180"/>
