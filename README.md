@@ -31,6 +31,6 @@ Apache License Version 2.0
 
 For information on the standalone air quality sensor, <a href="https://github.com/NationalAssociationOfRealtors/IndoorAirQualitySensor">click here.
 <p align="center">
-  <img src="https://github.com/NationalAssociationOfRealtors/IndoorAirQualitySensor/blob/master/docs/media/v0.3_prototype.jpg" alt="CRT Sensor Board"/>
+  <img src="https://github.com/NationalAssociationOfRealtors/IndoorAirQualitySensor/blob/dev/docs/media/v0.3_prototype.jpg" alt="CRT Sensor Board"/>
 </p>
 </a>
