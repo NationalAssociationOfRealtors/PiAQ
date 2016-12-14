@@ -4,7 +4,7 @@ An open hardware and software indoor air quality Raspberry Pi HAT provided by th
 The board comes in two form factors. One dedicated for the Raspberry Pi - [PiAQ](http://piaq.io)
 
 <p align="center">
-  <a href="http://piaq.io"><img src="http://piaq.io/images/preview-full-IMG_0117.png" alt="CRT Sensor Board"/></a>
+  <a href="http://piaq.io"><img src="http://piaq.io/wp/images/preview-full-IMG_0117.png" alt="CRT Sensor Board"/></a>
 </p>
 
 Measurement Points:
