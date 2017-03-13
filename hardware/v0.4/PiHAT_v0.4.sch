@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="8.0.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5747,7 +5747,7 @@ Temp:</text>
 </part>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
-<part name="U2" library="Adafruit SHT31" deviceset="SHT3X" device="">
+<part name="U2" library="Adafruit SHT31" deviceset="SHT3X" device="" value="SHT31">
 <attribute name="MPN" value="SHT35-DIS-B"/>
 </part>
 <part name="C16" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
